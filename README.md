@@ -1,6 +1,6 @@
 # xiaohongshu-mcp-server
 
-<!-- mcp-name: xiaohongshu-mcp-server -->
+<!-- mcp-name: io.github.shanyang-me/xiaohongshu-mcp -->
 
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server for [Xiaohongshu (Little Red Book)](https://www.xiaohongshu.com) - China's leading lifestyle social media platform.
 

@@ -1,6 +1,6 @@
 [project]
 name = "xiaohongshu-mcp-server"
-version = "0.1.0"
+version = "0.1.1"
 description = "Xiaohongshu (Little Red Book) MCP server - publish, search, and manage content via Model Context Protocol"
 readme = "README.md"
 license = "MIT"

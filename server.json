@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.shanyang-me/xiaohongshu-mcp",
+  "title": "Xiaohongshu (Little Red Book) MCP Server",
+  "description": "Publish, search, and manage Xiaohongshu (Little Red Book) content via MCP tools.",
+  "repository": {
+    "url": "https://github.com/shanyang-me/xhs-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "xiaohongshu-mcp-server",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
