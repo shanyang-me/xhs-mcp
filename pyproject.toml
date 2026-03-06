@@ -1,0 +1,45 @@
+[project]
+name = "xhs-mcp"
+version = "0.1.0"
+description = "Xiaohongshu (Little Red Book) MCP server - publish, search, and manage content via Model Context Protocol"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+authors = [
+    { name = "shanyang-me", email = "67655995+shanyang-me@users.noreply.github.com" },
+]
+keywords = ["xiaohongshu", "mcp", "red-book", "social-media", "ai"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "xhs>=0.2.13",
+    "fastmcp>=2.0.0",
+    "uvicorn>=0.34.0",
+    "playwright>=1.40",
+    "playwright-stealth>=2.0",
+]
+
+[project.optional-dependencies]
+qrcode = ["qrcode[pil]>=7.4"]
+
+[project.scripts]
+xhs-mcp = "xhs_mcp.server:main"
+
+[project.urls]
+Homepage = "https://github.com/shanyang-me/xhs-mcp"
+Repository = "https://github.com/shanyang-me/xhs-mcp"
+Issues = "https://github.com/shanyang-me/xhs-mcp/issues"
+
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
