@@ -1,6 +1,6 @@
-# xhs-mcp
+# xiaohongshu-mcp-server
 
-<!-- mcp-name: xhs-mcp -->
+<!-- mcp-name: xiaohongshu-mcp-server -->
 
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server for [Xiaohongshu (Little Red Book)](https://www.xiaohongshu.com) - China's leading lifestyle social media platform.
 
@@ -32,13 +32,13 @@ No browser automation of UI elements - all interactions go through XHS's interna
 ## Installation
 
 ```bash
-pip install xhs-mcp
+pip install xiaohongshu-mcp-server
 playwright install chromium
 ```
 
 For QR code image generation (optional):
 ```bash
-pip install "xhs-mcp[qrcode]"
+pip install "xiaohongshu-mcp[qrcode]"
 ```
 
 ## Quick Start
